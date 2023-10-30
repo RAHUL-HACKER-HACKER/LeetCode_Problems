@@ -5,7 +5,6 @@ class Solution {
             return false;
         int i = 0;
         HashSet<Integer> hset = new HashSet<Integer>();
-
         for(int j = 0; j < nums.length; j++) {
             if(!hset.add(nums[j])){
                 return true;
